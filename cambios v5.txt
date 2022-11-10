@@ -1,0 +1,41 @@
+﻿-----------SE AGREGÓ------------
+Eliminar (Falta hacerlo bonito)
+Agregar (falta hacerlo bonito, agregar los note errors)
+Listar 1(Falta hacerlo bonito y agregar todos los datos)
+Listar todos(Falta separar admin y usuario)
+-----------FALTA---------------
+Iniciar sesion
+Carrito
+-----------Se agrego2----------
+-Listar1: se agregaron todos los datos (falta hacer bonito la parte de perifericos)
+-Se modifico los routerlink de listar y de login para que login sea el routerlink principal ''
+-se modifico todos los botones de volver para que vayan acorde al routerlink
+-se agrego medidas de seguridad en listar1 y eleminar para que si no hay producto no quede en blanco 
+-se modifico el menu de listar, para que tenga mas logica
+-----------se agrego3----------
+-se agrego validators en agregar
+-se arreglo el precio en agregar
+-se agrego modificar (falta probarlo mas a detalle)
+-se agrego refrecher
+-se agrego infinite scroll
+-se arreglo perifericos en infoproducto (boolean ngif)
+-se agrego registro
+-----------falta 3-------------
+Iniciar sesion
+Carrito
+Probar todo para que no falle
+------------se agrego4--------
+Sistema login completo
+filtro admin en listar 
+filtro de pestaña agregado en agregar(solo admin)
+------------falta4------------
+Carrito
+replicar filtros en demas paginas 
+------------Se agrego5----------
+-filtro en todas las pestañas administrativas.
+-filtro en todas las pestañas de usuario
+-carrito funcional
+-proteccion para no saturar bd
+-se corrigio errores en bd, se agrego total a modelo de carrito
+------------falta 5-------------
+-Testing y mitigacion de posibles errores.

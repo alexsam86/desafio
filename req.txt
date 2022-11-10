@@ -1,0 +1,37 @@
+﻿CRUD Productos:
+- Listar
+- Agregar
+- Modificar
+- Eliminar
+
+-------------------------------------------------------------------------------------------------
+Atributos producto:
+- id: number (no vale) 
+- nombre: string
+- foto: string
+- descripcion: string
+- cpu: string
+- gpu: string
+- ram: number o sacarlo de un array
+- almacenamiento: number o sacarlo de un array
+- precio: number
+- perifericos: boolean
+- fuentePoder: number
+
+-------------------------------------------------------------------------------------------------
+Carrito de compras (DEBE SER POR SESIÓN Y REACTIVO):
+- Listar los productos agregados
+- Sumar productos +1
+- Restar productos -1
+- Vaciar Carrito
+
+El carrite debe mostrar: productos, cantidad, precio, total.
+
+-------------------------------------------------------------------------------------------------
+Login Admin/User, se debe filtrar que tipo de usuario ingresa:
+
+Admin: - Tendrá acceso al CRUD para poder manipular los productos.
+
+User:  - Tendrá una lista con información resumida de los productos disponibles (Muestra 4 atributos, Infinite Scroll)
+	 - Al pinchar un producto se debe redirigir a la info COMPLETA del producto (10 atributos), en donde se 
+	   podrá agregar el producto al carrito de compras.
